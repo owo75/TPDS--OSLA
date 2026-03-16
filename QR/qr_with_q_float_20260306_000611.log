@@ -1,0 +1,43 @@
+CSV: qr_with_q_float_20260306_000611.csv
+==== float_16384 @ 2026-03-06_00:06:11 ====
+n = 16384, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=16384) = 1.00 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 5924.562 ms: 0.989788 TFLOPs
+MAGMA ORGQR takes 486.595 ms: 12.051223 TFLOPs
+MAGMA GEQRF+ORGQR total 6411.156 ms: 1.829331 TFLOPs
+
+==== float_20480 @ 2026-03-06_00:06:58 ====
+n = 20480, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=20480) = 1.56 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 9058.151 ms: 1.264413 TFLOPs
+MAGMA ORGQR takes 1117.198 ms: 10.251757 TFLOPs
+MAGMA GEQRF+ORGQR total 10175.349 ms: 2.251175 TFLOPs
+
+==== float_24576 @ 2026-03-06_00:08:11 ====
+n = 24576, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=24576) = 2.25 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 13137.397 ms: 1.506479 TFLOPs
+MAGMA ORGQR takes 1961.328 ms: 10.090717 TFLOPs
+MAGMA GEQRF+ORGQR total 15098.726 ms: 2.621573 TFLOPs
+
+==== float_28672 @ 2026-03-06_00:09:58 ====
+n = 28672, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=28672) = 3.06 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 17743.434 ms: 1.771230 TFLOPs
+MAGMA ORGQR takes 3217.018 ms: 9.769205 TFLOPs
+MAGMA GEQRF+ORGQR total 20960.452 ms: 2.998762 TFLOPs
+
+==== float_32768 @ 2026-03-06_00:12:27 ====
+n = 32768, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=32768) = 4.00 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 23677.765 ms: 1.981289 TFLOPs
+MAGMA ORGQR takes 4984.186 ms: 9.412269 TFLOPs
+MAGMA GEQRF+ORGQR total 28661.951 ms: 3.273503 TFLOPs
+
+==== float_36864 @ 2026-03-06_00:15:49 ====
+n = 36864, precision = float, debug = off, time_q = on, warmup = 2, repeat = 5
+matrix bytes (with ldda=36864) = 5.06 GiB, free GPU memory = 78.74 GiB
+MAGMA GEQRF takes 29324.963 ms: 2.277764 TFLOPs
+MAGMA ORGQR takes 7102.753 ms: 9.404147 TFLOPs
+MAGMA GEQRF+ORGQR total 36427.716 ms: 3.667281 TFLOPs
+
