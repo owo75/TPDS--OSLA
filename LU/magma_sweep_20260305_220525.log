@@ -1,0 +1,30 @@
+==== double_24576 @ 2026-03-05_22:05:25 ====
+n = 24576, precision = double, debug = off
+warmup = 2, repeat = 10
+matrix bytes (with ldda=24576) = 4.50 GiB, free GPU memory = 78.74 GiB
+MAGMA LU avg 9025.200 ms (best 9020.581 ms): avg 1.096442 TFLOPs (best 1.097003 TFLOPs)
+
+==== double_32768 @ 2026-03-05_22:07:15 ====
+n = 32768, precision = double, debug = off
+warmup = 2, repeat = 10
+matrix bytes (with ldda=32768) = 8.00 GiB, free GPU memory = 78.74 GiB
+MAGMA LU avg 16069.153 ms (best 16048.532 ms): avg 1.459707 TFLOPs (best 1.461582 TFLOPs)
+
+==== double_40960 @ 2026-03-05_22:10:30 ====
+n = 40960, precision = double, debug = off
+warmup = 2, repeat = 10
+matrix bytes (with ldda=40960) = 12.50 GiB, free GPU memory = 78.74 GiB
+MAGMA LU avg 25293.174 ms (best 25221.061 ms): avg 1.811279 TFLOPs (best 1.816457 TFLOPs)
+
+==== double_49152 @ 2026-03-05_22:15:35 ====
+n = 49152, precision = double, debug = off
+warmup = 2, repeat = 10
+matrix bytes (with ldda=49152) = 18.00 GiB, free GPU memory = 78.74 GiB
+MAGMA LU avg 36671.603 ms (best 36593.328 ms): avg 2.158750 TFLOPs (best 2.163368 TFLOPs)
+
+==== double_51200 @ 2026-03-05_22:22:57 ====
+n = 51200, precision = double, debug = off
+warmup = 2, repeat = 10
+matrix bytes (with ldda=51200) = 19.53 GiB, free GPU memory = 78.74 GiB
+MAGMA LU avg 39713.187 ms (best 39635.008 ms): avg 2.253118 TFLOPs (best 2.257562 TFLOPs)
+
