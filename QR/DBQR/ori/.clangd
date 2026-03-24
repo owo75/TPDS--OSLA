@@ -1,0 +1,9 @@
+CompileFlags:
+  Add:
+    - "--cuda-path=/usr/local/cuda-12.8"
+    - "-Wno-unused-included-header"
+  Remove:
+    - "--extended-lambda"
+    - "--generate-code*"
+    - "-forward-unknown-to-host-compiler"
+  Compiler: /usr/local/cuda-12.8/bin/nvcc

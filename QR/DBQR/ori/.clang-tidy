@@ -1,0 +1,7 @@
+# .clang-tidy
+Checks: '-*,modernize-use-transparent-functors' # 启用所有检查，除了 modernize-use-transparent-functors
+# 或者如果你只想禁用和未使用头文件相关的检查，你需要找到具体的检查名称。
+# 如果你确定是这个警告，可以这样配置：
+# Checks: '-*,google-readability-todo,bugprone-throw-by-value' # 示例，禁用了一些不相关的检查
+# 但对于 'unused-included-header' 警告，它通常是 Clang 诊断的一部分，
+# 除非有特定的 clang-tidy 检查重新实现了它。
